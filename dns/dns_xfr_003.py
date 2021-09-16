@@ -19,6 +19,7 @@ def dns_tf(_target,_domain):
     except:
          print('[!] - Falha transferencia de zona dominio:', _domain, 'NS: ' , _target) 
 
+
 def dns_ns(_domain):
     queryns = myquery.query(_domain, 'NS')
 
@@ -27,4 +28,5 @@ def dns_ns(_domain):
         dns_tf(str(_hostns),_domain)
 
 dns_ns(domain)
+
 
