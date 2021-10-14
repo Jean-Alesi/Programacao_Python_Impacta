@@ -2,7 +2,7 @@
 
 import whois
 
-target = "google.com"
+target = "tecban.com"
 
 querywhois = whois.query(target)
 

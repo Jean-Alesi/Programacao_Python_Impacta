@@ -4,7 +4,7 @@ import shodan
 
 shodan_mykey = 'YesKUvmuts7JjZn9PmRXTVttBxl2MnXl'
 shodan_api = shodan.Shodan(shodan_mykey)
-shodan_target = '179.191.78.194'
+shodan_target = '40.90.4.1'
 shodan_host = shodan_api.host(shodan_target)
 
 
